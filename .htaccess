@@ -1,0 +1,27 @@
+Options +FollowSymLinks
+
+    ErrorDocument 404 /404/index.html
+
+
+    RewriteEngine on
+    #========================================================================
+    # FIRST Handle the http requests first before removing the additional url junk
+    #========================================================================
+
+    #///////////////////////////////////////////////////////////////////////////lvltic.com
+#    RewriteCond %{HTTP_HOST} ^(www.)?lvltic.com$
+#    RewriteCond %{REQUEST_URI} !^/lvltic/
+#    RewriteCond %{REQUEST_FILENAME} !-f
+#    RewriteCond %{REQUEST_FILENAME} !-d
+#    RewriteRule ^(.*)$ /lvltic/$1
+#    RewriteCond %{HTTP_HOST} ^(www.)?lvltic.com$
+#    RewriteRule ^(/)?$ lvltic/index.php
+    
+    #///////////////////////////////////////////////////////////////////////////sisndt-inc.com
+#    RewriteCond %{HTTP_HOST} ^(www.)?sisndt-inc.com$
+#    RewriteCond %{REQUEST_URI} !^/sisndt-inc/
+#    RewriteCond %{REQUEST_FILENAME} !-f
+#    RewriteCond %{REQUEST_FILENAME} !-d
+#    RewriteRule ^(.*)$ /sisndt-inc/$1
+#    RewriteCond %{HTTP_HOST} ^(www.)?sisndt-inc.com$
+#    RewriteRule ^(/)?$ sisndt-inc/index.php

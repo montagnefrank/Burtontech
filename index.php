@@ -38,33 +38,9 @@ require ("assets/scripts/videorandom.php");
         <link href="assets/css/custom.css" rel="stylesheet">
         <link href="assets/css/bg_video.css" rel="stylesheet">
     </head>
-    <body id="page-top" data-spy="scroll" data-target="#st-nav">
+    <body id="page-top" data-spy="scroll" data-target="#st-nav">                  
 
-        <!-- PRELOADER
-        ================================================== 
-        
-        <div id="particles-background" class="vertical-centered-box" style="height: 100vh;"></div>
-            <div id="particles-foreground" class="vertical-centered-box" style="height: 100vh;"></div>
-            
-            <div class="vertical-centered-box">
-              <div class="content">
-                <div class="loader-circle"></div>
-                <div class="loader-line-mask">
-                  <div class="loader-line"></div>
-                </div>
-                <svg width="36" viewBox="0 0 36 20" id="prism-logo">
-                  <path id="prism-logo-p2" d="M2.000,0.000 C2.000,0.000 21.000,20.000 21.000,20.000 C21.000,20.000 34.000,20.000 34.000,20.000 C34.000,20.000 14.000,0.000 14.000,0.000 C14.000,0.000 2.000,0.000 2.000,0.000 Z" fill="rgba(255,255,255,.7)"/>
-                  <path id="prism-logo-p1" d="M11.957,2.070 C11.957,0.913 12.680,0.001 14.056,0.001 C14.135,0.001 2.840,0.001 2.099,0.001 C1.359,0.001 0.000,0.814 0.000,2.070 C0.000,3.327 0.000,20.001 0.000,20.001 C0.000,20.001 11.957,20.001 11.957,20.001 C11.957,20.001 11.957,11.414 11.957,2.070 Z" fill="#fff"/>
-                  <path id="prism-logo-p3" d="M24.007,17.933 C24.007,19.090 23.286,20.001 21.913,20.001 C21.835,20.001 33.167,20.001 33.906,20.001 C34.645,20.001 36.000,19.189 36.000,17.933 C36.000,16.676 36.000,0.001 36.000,0.001 C36.000,0.001 24.007,0.001 24.007,0.001 C24.007,0.001 24.007,8.588 24.007,17.933 Z" fill="#fff"/>
-                </svg>
-              </div>
-            </div>                      
-
-        ================================================== -->
-        
-        
-        <!-- Navigation Menu
-        ================================================== -->
+        <!-- Menu ================================================== -->
         <header>
             <div id="st-logo">
                 <a href="#0">
@@ -101,13 +77,8 @@ require ("assets/scripts/videorandom.php");
                 </ul>
             </nav>
         </div>
-        <!-- /#st-nav -->
-
-        <!-- Hero Section
-        ================================================== -->
         <section id="hero" class="hero-section-video">
             <div class="video-overlay"></div>
-            <!-- /.video-overlay -->
             <div class="hero-video">
 
                 <video autoplay loop poster="assets/video/particle-video-light.jpg" id="bgvid" class="mobilevideobg">
@@ -146,10 +117,7 @@ require ("assets/scripts/videorandom.php");
                 </div>
             </div>
         </section>
-        <!-- /.hero-section -->
 
-        <!-- Image Section
-        ================================================== -->
         <section id="big-image" class="image-section">
             <div class="container">
                 <div class="row">
@@ -160,16 +128,11 @@ require ("assets/scripts/videorandom.php");
                         <h4 class="wow fadeInLeft animated" style="text-shadow: black 0.1em 0.1em 0.2em">Has llegado al sitio correcto, explora nuestro portafolio ahora!</h4>
                         <a class="btn btn-default btn-lg wow fadeInRight hvr-sweep-to-right primary-2-back animated page-scroll" href="#our-work">Portafolio</a>
                     </div>
-                    <!-- /.col-md-12 -->
                 </div>
-                <!-- /.row -->
             </div>
-            <!-- /.container -->
         </section>
-        <!-- /.image section -->
 
-        <!-- Our Work Section
-        ================================================== -->
+        <!-- Portafolio ================================================== -->
         <section id="our-work" class="our-work-section">
             <div class="container-fluid">
                 <div class="row">
@@ -468,14 +431,10 @@ require ("assets/scripts/videorandom.php");
                         </div>
                     </div>
                 </div>
-                <!-- /.row -->
             </div>
-            <!-- /.container-fluid -->
         </section>
-        <!-- /.our-work-section -->
 
-        <!-- About Us Section
-        ================================================== -->
+        <!-- Servicios ================================================== -->
         <section id="about" class="about-section">
             <div class="container">
                 <div class="row">
@@ -500,36 +459,27 @@ require ("assets/scripts/videorandom.php");
                                     <div class="text">Resultados REALES Y CUATIFICABLES</div>
                                 </li>
                             </ul>
-                            <!-- /.about-icons -->
                         </div>
 
                         <div class="about-images">
                             <div class="mockup image-left">
                                 <img class="wow fadeInLeft animated" src="assets/img/ipad2.png" alt="ipad">
                             </div>
-                            <!-- /.image-left -->
 
                             <div class="mockup image-center">
                                 <img class="wow slideInUp animated" src="assets/img/ipad1.png" alt="ipad">
                             </div>
-                            <!-- /.image-center -->
 
                             <div class="mockup image-right">
                                 <img class="wow fadeInRight animated" src="assets/img/ipad3.png" alt="ipad">
                             </div>
-                            <!-- /.image-right -->
                         </div>
                     </div>
-                    <!-- /.col-md-12 -->
                 </div>
-                <!-- /.row -->
             </div>
-            <!-- /.container -->
         </section>
-        <!-- /.about-section -->
 
-        <!-- Quote Section
-        ================================================== -->
+        <!-- Cita  ================================================== -->
         <section id="quote" class="quote-section">
             <div class="container-fluid">
                 <div class="row">
@@ -549,8 +499,7 @@ require ("assets/scripts/videorandom.php");
             </div>
         </section>
 
-        <!-- Services Section
-        ================================================== -->
+        <!-- Servicios  ================================================== -->
         <section id="services" class="services-section">
             <div class="container">
                 <div class="row">
@@ -629,10 +578,8 @@ require ("assets/scripts/videorandom.php");
                 </div>
             </div>
         </section>
-        <!-- /.service-section -->
 
-        <!-- Call To Action Section
-        ================================================== -->
+        <!-- Cotizar ================================================== -->
         <section id="call-to" class="call-to-section">
             <div class="call-to-layer main-gradient"></div>
             <div class="container">
@@ -648,10 +595,8 @@ require ("assets/scripts/videorandom.php");
                 </div>
             </div>
         </section>
-        <!-- /.call-to-section -->
 
-        <!-- Skills Section
-        ================================================== -->
+        <!-- Servicios        ================================================== -->
         <section id="skills" class="skills-section">
             <div class="container">
                 <div class="row">
@@ -715,10 +660,8 @@ require ("assets/scripts/videorandom.php");
                 </div>
             </div>
         </section>
-        <!-- /.skills-section -->
 
-        <!-- Contact Section
-        ================================================== -->
+        <!-- Contacto ================================================== -->
         <section id="contact" class="contact-section">
             <div class="container">
                 <div class="row">
@@ -792,27 +735,22 @@ require ("assets/scripts/videorandom.php");
                             <div class="contact-form">
                                 <h4 class="wow fadeIn animated">Estamos esperando <span> Tu Mensaje</span></h4>
 
-                                <form method="post" action="thanks.php">
+                                <form method="post" action="thanks.php" id="contactForm">
                                     <div class="form-group wow fadeIn animated">
                                         <label for="name">Nombre: </label>
-                                        <input type="text" id="name" name="name" class="form-control">
+                                        <input type="text" id="contact_name" name="name" class="form-control">
                                     </div>
 
                                     <div class="form-group wow fadeIn animated">
                                         <label for="phone">Teléfono: </label>
-                                        <input type="text" id="phone" name="phone" class="form-control">
+                                        <input type="text" id="contact_phone" name="phone" class="form-control" >
                                     </div>
-                                    <!-- /.form-group -->
 
                                     <div class="form-group wow fadeIn animated">
                                         <label for="message">Mensaje: </label>
-                                        <textarea id="message" name="message" class="form-control" rows="4"></textarea>
+                                        <textarea id="contact_message" name="message" class="form-control" rows="4"></textarea>
                                     </div>
-                                    <!-- /.form-group -->
-
-
-                                    <button class="btn btn-default wow fadeIn primary-back-hover primary-hover-border animated" type="submit">Enviar</button>
-
+                                    <button class="btn btn-default wow fadeIn primary-back-hover primary-hover-border animated" type="button" id="submitcontact">Enviar</button>
                                 </form>
                             </div>
                         </div>
@@ -820,10 +758,8 @@ require ("assets/scripts/videorandom.php");
                 </div>
             </div>
         </section>
-        <!-- /.contact-section -->
 
-        <!-- Footer
-        ================================================== -->
+        <!-- Footer =============================================== -->
         <footer>
             <p>Copyright © 2018 -<a href="http://www.burtonservers.com/" class="primary-hover"> Burton Technology</a></p>
         </footer>
@@ -833,7 +769,7 @@ require ("assets/scripts/videorandom.php");
         <!-- JavaScript Libraries -->
         <script src="assets/js/libs.min.js"></script>
 
-        <!-- Custom Particle Theme JavaScript -->
+        <!-- Custom  JavaScript -->
         <script src="assets/js/particle-theme.min.js"></script>
         <script src="assets/js/skilltech-style-switcher.min.js"></script>
         <script src="assets/js/custom.js"></script>

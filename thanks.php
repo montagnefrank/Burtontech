@@ -59,19 +59,19 @@ if ($_POST['name'] == '' || $_POST['phone'] == '' || $_POST['message'] == ''){
                         <a class="page-scroll hvr-underline-from-center" href="index.php">Inicio</a>
                     </li>
                     <li>
-                        <a class="page-scroll hvr-underline-from-center" href="#our-work">Portafolio</a>
+                        <a class="page-scroll hvr-underline-from-center" href="index.php#our-work">Portafolio</a>
                     </li>
                     <li>
-                        <a class="page-scroll hvr-underline-from-center" href="#about">Trayectoria</a>
+                        <a class="page-scroll hvr-underline-from-center" href="index.php#about">Trayectoria</a>
                     </li>
                     <li>
-                        <a class="page-scroll hvr-underline-from-center" href="#services">Servicios</a>
+                        <a class="page-scroll hvr-underline-from-center" href="index.php#services">Servicios</a>
                     </li>
                     <li>
-                        <a class="page-scroll hvr-underline-from-center" href="#skills">Proyecci&oacute;n</a>
+                        <a class="page-scroll hvr-underline-from-center" href="index.php#skills">Proyecci&oacute;n</a>
                     </li>
                     <li>
-                        <a class="page-scroll hvr-underline-from-center" href="#contact">Contacto</a>
+                        <a class="page-scroll hvr-underline-from-center" href="index.php#contact">Contacto</a>
                     </li>
                 </ul>
             </nav>

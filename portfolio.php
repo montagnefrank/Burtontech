@@ -236,18 +236,15 @@ switch ($show) {
 
 ?><!DOCTYPE html>
 <html lang="en">
-    <head><meta http-equiv="Content-Type" content="text/html; charset=gb18030">
-
-        
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=gb18030">
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'/>
         <meta name="description" content="">
         <meta name="author" content="">
-
         <title>Burton Technology | <?php echo $item['title']; ?></title>
-
         <link rel="icon" href="assets/img/logotipo.png" type="image/x-icon">
-
+        
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700%7CTitillium+Web:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -289,19 +286,19 @@ switch ($show) {
                         <a class="page-scroll hvr-underline-from-center" href="index.php">Inicio</a>
                     </li>
                     <li>
-                        <a class="page-scroll hvr-underline-from-center" href="#our-work">Portafolio</a>
+                        <a class="page-scroll hvr-underline-from-center" href="index.php#our-work">Portafolio</a>
                     </li>
                     <li>
-                        <a class="page-scroll hvr-underline-from-center" href="#about">Trayectoria</a>
+                        <a class="page-scroll hvr-underline-from-center" href="index.php#about">Trayectoria</a>
                     </li>
                     <li>
-                        <a class="page-scroll hvr-underline-from-center" href="#services">Servicios</a>
+                        <a class="page-scroll hvr-underline-from-center" href="index.php#services">Servicios</a>
                     </li>
                     <li>
-                        <a class="page-scroll hvr-underline-from-center" href="#skills">Proyecci&oacute;n</a>
+                        <a class="page-scroll hvr-underline-from-center" href="index.php#skills">Proyecci&oacute;n</a>
                     </li>
                     <li>
-                        <a class="page-scroll hvr-underline-from-center" href="#contact">Contacto</a>
+                        <a class="page-scroll hvr-underline-from-center" href="index.php#contact">Contacto</a>
                     </li>
                 </ul>
             </nav>
@@ -430,26 +427,24 @@ switch ($show) {
                         <div class="col-lg-12 col-md-12">
                             <div class="portfolio-form">
                                 <h3>Quiero algo <span> como esto</span></h3>
-                                <form method="post" action="thanks.php">
-                                    <div class="form-group">
+                                <form method="post" action="thanks.php" id="contactForm">
+                                    <div class="form-group wow fadeIn animated">
                                         <label for="name">Nombre: </label>
-                                        <input type="text" id="name" name="name" class="form-control">
+                                        <input type="text" id="contact_name" name="name" class="form-control">
+                                    </div>
+
+                                    <div class="form-group wow fadeIn animated">
+                                        <label for="phone">Teléfono: </label>
+                                        <input type="text" id="contact_phone" name="phone" class="form-control" >
                                     </div>
                                     <!-- /.form-group -->
 
-                                    <div class="form-group">
-                                        <label for="phone">Tel&eacute;fono: </label>
-                                        <input type="text" id="phone" name="phone" class="form-control">
-                                    </div>
-                                    <!-- /.form-group -->
-
-                                    <div class="form-group">
+                                    <div class="form-group wow fadeIn animated">
                                         <label for="message">Mensaje: </label>
-                                        <textarea id="message" name="message" class="form-control" rows="3"></textarea>
+                                        <textarea id="contact_message" name="message" class="form-control" rows="4"></textarea>
                                     </div>
                                     <!-- /.form-group -->
-
-                                    <button type="submit" class="btn btn-default primary-back-hover primary-hover-border">Enviar</button>
+                                    <button class="btn btn-default wow fadeIn primary-back-hover primary-hover-border animated" type="button" id="submitcontact">Enviar</button>
                                 </form>
                             </div>
                             <!-- /.portfolio-form -->

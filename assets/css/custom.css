@@ -178,18 +178,9 @@ footer p a:hover,
     top: 150%;        
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+#contactForm input::placeholder, #contactForm textarea::placeholder { 
+   color:    #ff3333;
+}
 
 
 /* ******************************************************************************
