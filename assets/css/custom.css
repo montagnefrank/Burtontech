@@ -21,72 +21,72 @@ footer p a:hover,
 .portfolio-icons li a:hover,
 .service-icons li a:hover,
 .service-form .btn-default:hover {
-   background-color: #00f4d4;
+    background-color: #00f4d4;
 }
 .contact-form .btn-default:hover,
 .service-form .btn-default:hover {
-   border-color: #00f4d4;
+    border-color: #00f4d4;
 }
 /* primary color 2 */
 .st-nav-trigger {
-   box-shadow: 0 0 10px #004bb7;
+    box-shadow: 0 0 10px #004bb7;
 }
 @media only screen and (min-width: 992px) {
-   #st-nav.is-fixed ul {
-       box-shadow: 0 0 10px #004bb7;
-   }
+    #st-nav.is-fixed ul {
+        box-shadow: 0 0 10px #004bb7;
+    }
 }
 .st-nav-trigger span,
 .st-nav-trigger.menu-is-open span::before,
 .st-nav-trigger.menu-is-open span::after,
 .image-section .btn-lg,
 .social-icons li a {
-   background: #004bb7;
+    background: #004bb7;
 }
 /* primary color 3 */
 .sweep-icon a .fa {
-   color: #499fff;
+    color: #499fff;
 }
 /* secondary color */
 .our-work-section .new-style p a {
-   color: #3f60cb;
+    color: #3f60cb;
 }
 .sweep-layer h3 a:hover {
-   color: #3f60cb;
+    color: #3f60cb;
 }
 /* Gradients */
 /* secondary and secondary 2 */
 .call-to-section .btn-default {
-   background: -ms-linear-gradient(left, #3f60cb 0%, #00BBFF 100%);
-   background: -moz-linear-gradient(left, #3f60cb 0%, #00BBFF 100%);
-   background: -webkit-gradient(linear, left top, right bottom, color-stop(0, #3f60cb), color-stop(1, #00BBFF));
-   background: -webkit-linear-gradient(left, #3f60cb, #00BBFF 100%);
-   background: linear-gradient(to right, #3f60cb, #00BBFF 100%);
-   border: 1px solid #3f60cb;
+    background: -ms-linear-gradient(left, #3f60cb 0%, #00BBFF 100%);
+    background: -moz-linear-gradient(left, #3f60cb 0%, #00BBFF 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0, #3f60cb), color-stop(1, #00BBFF));
+    background: -webkit-linear-gradient(left, #3f60cb, #00BBFF 100%);
+    background: linear-gradient(to right, #3f60cb, #00BBFF 100%);
+    border: 1px solid #3f60cb;
 }
 /* secondary and primary 2 */
 .hero-layer,.call-to-layer {
-   background: -ms-linear-gradient(left, #3f60cb 0%, #004bb7 100%);
-   background: -moz-linear-gradient(left, #3f60cb 0%, #004bb7 100%);
-   background: -webkit-gradient(linear, left top, right bottom, color-stop(0, #3f60cb), color-stop(1, #004bb7));
-   background: -webkit-linear-gradient(left, #3f60cb, #004bb7 100%);
-   background: linear-gradient(to right, #3f60cb, #004bb7 100%);
+    background: -ms-linear-gradient(left, #3f60cb 0%, #004bb7 100%);
+    background: -moz-linear-gradient(left, #3f60cb 0%, #004bb7 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0, #3f60cb), color-stop(1, #004bb7));
+    background: -webkit-linear-gradient(left, #3f60cb, #004bb7 100%);
+    background: linear-gradient(to right, #3f60cb, #004bb7 100%);
 }
 .portfolio-img .sweep-left,
 .portfolio-img .sweep-right {
-   background: -ms-linear-gradient(left, #004bb7 0%, #3f60cb 100%);
-   background: -moz-linear-gradient(left, #004bb7 0%, #3f60cb 100%);
-   background: -webkit-gradient(linear, left top, right bottom, color-stop(0, #004bb7), color-stop(1, #3f60cb));
-   background: -webkit-linear-gradient(left, #004bb7, #3f60cb 100%);
-   background: linear-gradient(to right, #004bb7, #3f60cb 100%);
+    background: -ms-linear-gradient(left, #004bb7 0%, #3f60cb 100%);
+    background: -moz-linear-gradient(left, #004bb7 0%, #3f60cb 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0, #004bb7), color-stop(1, #3f60cb));
+    background: -webkit-linear-gradient(left, #004bb7, #3f60cb 100%);
+    background: linear-gradient(to right, #004bb7, #3f60cb 100%);
 }
 /* secondary 2 and primary 4 */
 .gradient {
-   background: -ms-linear-gradient(left, #00BBFF 0%, #862bff 100%);
-   background: -moz-linear-gradient(left, #00BBFF 0%, #862bff 100%);
-   background: -webkit-gradient(linear, left top, right bottom, color-stop(0, #00BBFF), color-stop(1, #862bff));
-   background: -webkit-linear-gradient(left, #00BBFF, #862bff 100%);
-   background: linear-gradient(to right, #00BBFF, #862bff 100%);
+    background: -ms-linear-gradient(left, #00BBFF 0%, #862bff 100%);
+    background: -moz-linear-gradient(left, #00BBFF 0%, #862bff 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0, #00BBFF), color-stop(1, #862bff));
+    background: -webkit-linear-gradient(left, #00BBFF, #862bff 100%);
+    background: linear-gradient(to right, #00BBFF, #862bff 100%);
 }
 
 .headerlogo{
@@ -131,39 +131,39 @@ footer p a:hover,
 /******EL MENU REBOTA******/
 
 .bounce_ani {
-  -moz-animation: bounce 2s infinite!important;
-  -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite!important;
+    -moz-animation: bounce 2s infinite!important;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite!important;
 }
 
 .bounce_aniX {
-  -moz-animation: bounceX 2s infinite!important;
-  -webkit-animation: bounceX 2s infinite;
-  animation: bounceX 2s infinite!important;
+    -moz-animation: bounceX 2s infinite!important;
+    -webkit-animation: bounceX 2s infinite;
+    animation: bounceX 2s infinite!important;
 }
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-30px);
-  }
-  60% {
-    transform: translateY(-15px);
-  }
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
 }
 
 @keyframes bounceX {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateX(0);
-  }
-  40% {
-    transform: translateX(+30px);
-  }
-  60% {
-    transform: translateX(+15px);
-  }
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateX(0);
+    }
+    40% {
+        transform: translateX(+30px);
+    }
+    60% {
+        transform: translateX(+15px);
+    }
 }
 
 .mobilevideobg,.desktopvideobg{
@@ -179,9 +179,14 @@ footer p a:hover,
 }
 
 #contactForm input::placeholder, #contactForm textarea::placeholder { 
-   color:    #ff3333;
+    color:    #ff3333;
 }
 
+/* FIX PARA GOOGLE CHROME EL BG DE ESA SECCION */
+
+.quote-section{
+    position: static!important;
+}
 
 /* ******************************************************************************
 ********************************************************************************
