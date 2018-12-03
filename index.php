@@ -37,6 +37,17 @@ require ("assets/scripts/videorandom.php");
         <link href="assets/css/skins.css" rel="stylesheet">
         <link href="assets/css/custom.css" rel="stylesheet">
         <link href="assets/css/bg_video.css" rel="stylesheet">
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112590518-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'UA-112590518-1');
+        </script>
+        <meta name="google-site-verification" content="wu6tF4C2bObbbhCNKemENLoKcp2cseHWd-aKAkYiV3U" />
     </head>
     <body id="page-top" data-spy="scroll" data-target="#st-nav">                  
 
@@ -124,7 +135,7 @@ require ("assets/scripts/videorandom.php");
 
                     <div class="col-md-12">
                         <img src="assets/img/btsolid.png" alt="Burton Technology" class="ribbonlogo">
-                        <h3 class="wow fadeInLeft animated" style="text-shadow: black 0.1em 0.1em 0.2em">Buscas lo más  <span> moderno y eficinete</span>?</h3>
+                        <h3 class="wow fadeInLeft animated" style="text-shadow: black 0.1em 0.1em 0.2em">Buscas lo más  <span> moderno y eficiente</span>?</h3>
                         <h4 class="wow fadeInLeft animated" style="text-shadow: black 0.1em 0.1em 0.2em">Has llegado al sitio correcto, explora nuestro portafolio ahora!</h4>
                         <a class="btn btn-default btn-lg wow fadeInRight hvr-sweep-to-right primary-2-back animated page-scroll" href="#our-work">Portafolio</a>
                     </div>
@@ -163,26 +174,6 @@ require ("assets/scripts/videorandom.php");
                                             </div>
                                             <h3><a href="portfolio.php?show=bt" target="_blank" class="secondary-hover">Burtontech Sitio Previo</a></h3>
                                             <p>Somos un grupo en constante evolución</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="sweep-right image-gradient"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 col-xs-6">
-                            <div class="portfolio-img first">
-                                <img class="img-responsive" src="assets/img/protfolio/aec.jpg" alt="Aeconstructora">
-                                <div class="sweep-left image-gradient"></div>
-                                <div class="sweep-from-center">
-                                    <div class="sweep-layer">
-                                        <div class="sweep-content">
-                                            <div class="sweep-icon">
-                                                <a href="portfolio.php?show=aec" target="_blank">
-                                                    <i class="fa fa-eye primary-3" aria-hidden="true"></i>
-                                                </a>
-                                            </div>
-                                            <h3><a href="portfolio.php?show=aec" target="_blank" class="secondary-hover">AEConstructora</a></h3>
-                                            <p>Sitio Web Inteligente</p>
                                         </div>
                                     </div>
                                 </div>
@@ -391,26 +382,6 @@ require ("assets/scripts/videorandom.php");
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-6">
                             <div class="portfolio-img first">
-                                <img class="img-responsive" src="assets/img/protfolio/univ.jpg" alt="Universal Gaming">
-                                <div class="sweep-left image-gradient"></div>
-                                <div class="sweep-from-center">
-                                    <div class="sweep-layer">
-                                        <div class="sweep-content">
-                                            <div class="sweep-icon">
-                                                <a href="portfolio.php?show=univ" target="_blank">
-                                                    <i class="fa fa-eye primary-3" aria-hidden="true"></i>
-                                                </a>
-                                            </div>
-                                            <h3><a href="portfolio.php?show=univ" target="_blank" class="secondary-hover">Universal Gaming</a></h3>
-                                            <p>Plataforma de juegos y Foro Personalizado</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="sweep-right image-gradient"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 col-xs-6">
-                            <div class="portfolio-img first">
                                 <img class="img-responsive" src="assets/img/protfolio/naty.jpg" alt="Proyecto Naty">
                                 <div class="sweep-left image-gradient"></div>
                                 <div class="sweep-from-center">
@@ -456,7 +427,7 @@ require ("assets/scripts/videorandom.php");
                                 </li>
                                 <li class="wow fadeIn animated">
                                     <div class="icon"><i class="material-icons primary">insert_chart</i></div>
-                                    <div class="text">Resultados REALES Y CUATIFICABLES</div>
+                                    <div class="text">Resultados REALES Y CUANTIFICABLES</div>
                                 </li>
                             </ul>
                         </div>

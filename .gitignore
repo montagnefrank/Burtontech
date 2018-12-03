@@ -1,5 +1,8 @@
 # Private files
 
 dev/
+test/
 www.zip
 my.cnf
+/test/frank/nbproject/private/
+/test/naty/node_modules/
